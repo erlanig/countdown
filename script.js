@@ -1,5 +1,5 @@
 // Tentukan tanggal tujuan
-const tujuan = new Date("Jan 11, 2025 00:00:00").getTime();
+const tujuan = new Date("Jan 11, 2026 00:00:00").getTime();
 
 // Fungsi menghitung mundur
 const hitungMundur = setInterval(function () {
@@ -17,7 +17,7 @@ const hitungMundur = setInterval(function () {
 
   // Perbarui teks di elemen HTML
   teks.innerHTML =
-    "1st anniversary dalam: " +
+    "2nd anniversary dalam: " +
     hari +
     " hari " +
     jam +
