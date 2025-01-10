@@ -32,7 +32,7 @@ const hitungMundur = setInterval(function () {
     clearInterval(hitungMundur); // Hentikan interval
 
     // Tampilkan pop-up dengan tautan
-    alert("Sekarang abis udah waktunya.... tinggal di klik OK dulu sayang. Selamat menikmati love sekebon<3");
+    alert("Sekarang udah abis waktunya sayang.... kamu tinggal klik OK dulu sayang. Selamat menikmati love sekebon<3");
     window.location.href =
       "https://drive.google.com/file/d/1cUCynKJqJTm57-meW7Oz4fb85Ove9KDF/view?usp=sharing";
 
