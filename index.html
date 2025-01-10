@@ -22,7 +22,7 @@
     }
 
     h1 {
-      font-size: 3em;
+      font-size: 2.5em;
       color: #F9629F;
       margin-bottom: 15px;
       text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
@@ -31,37 +31,66 @@
     p {
       font-size: 1em;
       color: #F9629F;
-      margin-bottom: 30px;
-      /* text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); */
+      margin-top: 20px;
       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     }
 
     #teks {
-      font-size: 1.8em;
+      font-size: 1.5em;
       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
       background-color: #fff;
       border: 2px solid #F9629F;
-      padding: 20px;
+      padding: 15px;
       border-radius: 15px;
       display: inline-block;
       box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
-      max-width: 80%;
+      max-width: 90%;
     }
 
     a {
       text-decoration: none;
       color: #fff;
       background-color: #F9629F;
-      padding: 12px 25px;
+      padding: 10px 20px;
       border-radius: 10px;
       display: inline-block;
       margin-top: 20px;
-      font-size: 1.2em;
+      font-size: 1.1em;
       box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     }
 
     a:hover {
-      background-color: #F9629F;
+      background-color: #c94b8a;
+    }
+
+    @media (max-width: 600px) {
+      h1 {
+        font-size: 2em;
+      }
+
+      #teks {
+        font-size: 1.2em;
+        padding: 10px;
+      }
+
+      a {
+        font-size: 1em;
+        padding: 8px 15px;
+      }
+    }
+
+    @media (max-width: 400px) {
+      h1 {
+        font-size: 1.8em;
+      }
+
+      #teks {
+        font-size: 1em;
+      }
+
+      a {
+        font-size: 0.9em;
+      }
     }
   </style>
 </head>
